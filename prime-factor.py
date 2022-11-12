@@ -1,4 +1,8 @@
-N = int(input("Enter random number : "))
+N = 0
+l = 0
+while N < 2:
+    N = int(input("Enter random number : "))
+
 output = ""
 factors = ""
 
@@ -12,7 +16,7 @@ for i in range (2,N+1):
             factors += str(i) + ","
 
 if N>1:
-    output = "Prime factor(s) : " + faktor 
+    output = "Prime factor(s) : " + factors 
     l = len(output) - 1
     print(output[:l] + ".")
 
