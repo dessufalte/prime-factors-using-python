@@ -1,1 +1,1 @@
-# the-greatest-common-divisor
+# prime-factors-using-python
